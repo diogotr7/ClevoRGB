@@ -60,6 +60,7 @@ namespace ClevoRGB
         P,
         OPEN_BRACKET,
         CLOSE_BRACKET,
+        ANSI_BACKSLASH,
         ENTER,
         NUMPAD_SEVEN,
         NUMPAD_EIGHT,
@@ -78,13 +79,13 @@ namespace ClevoRGB
         L,
         SEMICOLON,
         APOSTROPHE,
-        HASHTAG,
+        ISO_HASH,
         NUMPAD_FOUR,
         NUMPAD_FIVE,
         NUMPAD_SIX,
 
         LEFT_SHIFT,
-        BACKSLASH_UK,
+        ISO_BACKSLASH,
         Z,
         X,
         C,
@@ -115,8 +116,6 @@ namespace ClevoRGB
         RIGHT_ARROW,
         NUMPAD_0,
         NUMPAD_PERIOD,
-
-        BACKSLASH
     }
 
     public static class Layouts
@@ -200,7 +199,7 @@ namespace ClevoRGB
             [Key.SEMICOLON] = new int[] { 227 },
             [Key.APOSTROPHE] = new int[] { 230 },
             //233 blank definitely
-            [Key.HASHTAG] = new int[] { 236 },
+            [Key.ISO_HASH] = new int[] { 236 },
             //240 enter bottom
             [Key.NUMPAD_FOUR] = new int[] { 243 },
             [Key.NUMPAD_FIVE] = new int[] { 246 },
@@ -210,7 +209,7 @@ namespace ClevoRGB
             //4
             [Key.LEFT_SHIFT] = new int[] { 256 },
             //259
-            [Key.BACKSLASH_UK] = new int[] { 262 },
+            [Key.ISO_BACKSLASH] = new int[] { 262 },
             [Key.Z] = new int[] { 265 },
             [Key.X] = new int[] { 268 },
             [Key.C] = new int[] { 272 },
