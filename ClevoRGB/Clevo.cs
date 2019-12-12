@@ -60,12 +60,8 @@ namespace ClevoRGB
         public static void SetColorFull(Color clr)
         {
             for (byte row = 0; row <= ROWS; row++)
-            {
                 for (byte col = 0; col <= COLUMNS; col++)
-                {
                     SetColorWithIndex(GetIndex(row, col), clr);
-                }
-            }
         }
 
         public static void SetKeyColor(Key key, Color clr)

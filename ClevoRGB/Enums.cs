@@ -157,7 +157,7 @@ namespace ClevoRGB
             [Key.EIGHT] = new int[] { 89 },
             [Key.NINE] = new int[] { 92 },
             [Key.ZERO] = new int[] { 96 },
-            [Key.MINUS] = new int[] { 102 },
+            [Key.MINUS] = new int[] { 99 },
             [Key.EQUALS] = new int[] { 105 },
             [Key.BACKSPACE] = new int[] { 108, 112 },
             [Key.NUMLOCK] = new int[] { 115 },
