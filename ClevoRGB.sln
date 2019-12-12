@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClevoRGB", "ClevoRGB\ClevoRGB.csproj", "{B40D21C4-74C7-4D1D-A35A-7CC942B699A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{5AF8D480-8BAA-4EF5-9C38-23ED00BA7514}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B40D21C4-74C7-4D1D-A35A-7CC942B699A2}.Debug|x64.ActiveCfg = Debug|x64
+		{B40D21C4-74C7-4D1D-A35A-7CC942B699A2}.Debug|x64.Build.0 = Debug|x64
+		{B40D21C4-74C7-4D1D-A35A-7CC942B699A2}.Release|x64.ActiveCfg = Release|x64
+		{B40D21C4-74C7-4D1D-A35A-7CC942B699A2}.Release|x64.Build.0 = Release|x64
+		{5AF8D480-8BAA-4EF5-9C38-23ED00BA7514}.Debug|x64.ActiveCfg = Debug|x64
+		{5AF8D480-8BAA-4EF5-9C38-23ED00BA7514}.Debug|x64.Build.0 = Debug|x64
+		{5AF8D480-8BAA-4EF5-9C38-23ED00BA7514}.Release|x64.ActiveCfg = Release|x64
+		{5AF8D480-8BAA-4EF5-9C38-23ED00BA7514}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91592BCC-413C-4FF5-9629-BDF1CCD673AB}
+	EndGlobalSection
+EndGlobal
