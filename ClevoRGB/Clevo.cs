@@ -30,7 +30,7 @@ namespace ClevoRGB
         {
             try
             {
-                InitPerkeyIo();
+                InitPerkeyIo();//TODO: This initializes on systems without the keyboard
                 _layout = Layouts.ISO15;
                 return true;
             }
@@ -73,8 +73,6 @@ namespace ClevoRGB
             if (_layout.TryGetValue(key, out var index))
                 for (byte i = 0; i < index.Length; i++)
                     SetColorWithIndex(index[i], clr);
-            else
-                Console.WriteLine("failed to get value of" + key);
         }
 
         public static void SetCoordColor(byte row, byte col, Color clr) => SetColorWithIndex(GetIndex(row, col), clr);
